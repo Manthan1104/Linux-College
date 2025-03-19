@@ -52,7 +52,7 @@ ls
 ## Snippets of the Task Performed
 
 ### 1. Creating Files , Directories and verifying them
-![Creating Files and Directories](/Output1.png)
+![Creating Files and Directories](Experiment%20_1/Output1.png)
 
 ---
 
