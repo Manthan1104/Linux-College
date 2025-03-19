@@ -80,17 +80,17 @@ backup_2024_v1.zip backup_2024_v2.zip backup_2024_v3.zip backup_2025_v1.zip back
 ## Snippets of the Task Performed
 
 ### 1. Viewing the `gedit` Manual Page
-![gedit man page](screenshots/mangedit.png)
+![gedit man page](./Gedit.png)
 
 ---
 
 ### 2. Searching for Commands Related to `ext4`
-![Searching ext4](screenshots/search_ext4.png)
+![Searching ext4](./ext4.png)
 
 ---
 
 ### 3. Demonstrating Brace Expansion
-![Brace Expansion](screenshots/brace_expansion.png)
+![Brace Expansion](./braces.png)
 
 ---
 
