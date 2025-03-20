@@ -80,6 +80,8 @@ If the file initially contained:
 This is the first line of the file.
 This is the second line of the file.
 This is the third line of the file.
+This is the fourth line of the file.
+This is the fifth line of the file.
 ```
 
 After editing with Vim, the first line should appear as:
