@@ -35,6 +35,8 @@ Nano is a beginner-friendly text editor.
    This is the first line of the file.
    This is the second line of the file.
    This is the third line of the file.
+   This is the fourth line of the file.
+   This is the fifth line of the file.
    ```
 3. Save the changes (`CTRL + O`) and exit (`CTRL + X`).
 
