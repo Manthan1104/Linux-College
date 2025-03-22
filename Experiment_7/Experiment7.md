@@ -1,4 +1,4 @@
-# Lab 13 & 14
+# Experiment 7
 
 ---
 
@@ -18,7 +18,7 @@ sudo chown operator1 testfile.txt
 ```
 
 #### Screenshot:
-![Changing file owner](screenshots/chown_basic.png)
+![Changing file owner](./chownb.png)
 
 ---
 
@@ -28,7 +28,7 @@ sudo chown operator1:operator2 testfile.txt
 ```
 
 #### Screenshot:
-![Changing owner and group](screenshots/chown_owner_group.png)
+![Changing owner and group](./chownowner.png)
 
 ---
 
@@ -38,7 +38,7 @@ sudo chown -R operator1:operator1 testdirectory/
 ```
 
 #### Screenshot:
-![Changing ownership recursively](screenshots/chown_recursive.png)
+![Changing ownership recursively](./chownrecursive.png)
 
 ---
 
@@ -48,7 +48,7 @@ sudo chown --reference=referencefile.txt targetfile.txt
 ```
 
 #### Screenshot:
-![Copying ownership from reference file](screenshots/chown_reference.png)
+![Copying ownership from reference file](./chownreference.png)
 
 ---
 
@@ -63,7 +63,7 @@ The `chmod` command is used to modify file access permissions for the owner, gro
    **Explanation**: Owner gets full permissions (7), group and others get none (0).
 
    #### Screenshot:
-   ![Setting permissions with numeric mode](screenshots/chmod_numeric.png)
+   ![Setting permissions with numeric mode](./chmodnumeric.png)
 
 2. Assign read and write for the owner, and read-only for group and others:
    ```bash
@@ -71,7 +71,7 @@ The `chmod` command is used to modify file access permissions for the owner, gro
    ```
 
    #### Screenshot:
-   ![Setting 644 permissions](screenshots/chmod_644.png)
+   ![Setting 644 permissions](./chmod644.png)
 
 ---
 
@@ -82,7 +82,7 @@ The `chmod` command is used to modify file access permissions for the owner, gro
    ```
 
    #### Screenshot:
-   ![Adding execute permission for owner](screenshots/chmod_user_x.png)
+   ![Adding execute permission for owner](./chmoduser.png)
 
 2. Remove write permission for the group:
    ```bash
@@ -90,7 +90,7 @@ The `chmod` command is used to modify file access permissions for the owner, gro
    ```
 
    #### Screenshot:
-   ![Removing write permission for group](screenshots/chmod_group_w.png)
+   ![Removing write permission for group](./chmodgroup.png)
 
 3. Add read permission for others:
    ```bash
@@ -98,7 +98,7 @@ The `chmod` command is used to modify file access permissions for the owner, gro
    ```
 
    #### Screenshot:
-   ![Adding read permission for others](screenshots/chmod_others_r.png)
+   ![Adding read permission for others](./chmodothers.png)
 
 4. Set multiple permissions at once:
    ```bash
@@ -106,7 +106,7 @@ The `chmod` command is used to modify file access permissions for the owner, gro
    ```
 
    #### Screenshot:
-   ![Setting multiple permissions](screenshots/chmod_multiple.png)
+   ![Setting multiple permissions](./chmodmultiple.png)
 
 ---
 
@@ -117,7 +117,7 @@ chmod -R 755 testdirectory/
 ```
 
 #### Screenshot:
-![Changing permissions recursively](screenshots/chmod_recursive.png)
+![Changing permissions recursively](./chmod_recursive.png)
 
 ---
 
@@ -129,7 +129,7 @@ chmod -R 755 testdirectory/
    **Explanation**: Allows execution with the file owner's permissions.
 
    #### Screenshot:
-   ![Setting SUID permission](screenshots/chmod_suid.png)
+   ![Setting SUID permission](./chmodsuid.png)
 
 2. Set SGID permission:
    ```bash
@@ -138,7 +138,7 @@ chmod -R 755 testdirectory/
    **Explanation**: Ensures new files inherit the directory's group.
 
    #### Screenshot:
-   ![Setting SGID permission](screenshots/chmod_sgid.png)
+   ![Setting SGID permission](./chmodsgid.png)
 
 3. Set the sticky bit:
    ```bash
@@ -147,7 +147,7 @@ chmod -R 755 testdirectory/
    **Explanation**: Prevents users from deleting files owned by others.
 
    #### Screenshot:
-   ![Setting sticky bit](screenshots/chmod_sticky.png)
+   ![Setting sticky bit](./chmodsticky.png)
 
 ---
 
@@ -159,7 +159,7 @@ chmod 750 testfile.txt
 ```
 
 #### Screenshot:
-![Combined ownership and permission change](screenshots/chown_chmod_combined.png)
+![Combined ownership and permission change](./chownchmodcombined.png)
 
 ---
 
