@@ -37,6 +37,7 @@ The `passwd` command is used to assign or update passwords for user accounts.
    ```
 
 #### Screenshot:
+
 ![Setting password for operator1](./passwd.png)
 
 ---
