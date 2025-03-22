@@ -30,6 +30,7 @@ The `ps` command displays details about active processes.
 
 #### Screenshots:
 - ![Display processes for the current user](./pscommand.png)
+- 
 - ![Display all processes](./pse.png)
 - ![Display processes in full format](./psef.png)
 
