@@ -89,7 +89,7 @@ The `umask` determines the default permissions for newly created files and direc
    ```
 3. Apply the changes:
    ```bash
-   source ~/.bashrc
+   . ~/.bashrc
    ```
 4. Verify the updated `umask`:
    ```bash
