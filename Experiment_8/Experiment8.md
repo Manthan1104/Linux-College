@@ -26,7 +26,8 @@ This lab focuses on creating and executing shell scripts in Linux to gather syst
    chmod +x Experiment8.sh
    ```
 7. Run the script:
-   ```bash Experiment8.sh
+   ```bash
+   bash Experiment8.sh
    ```
 8. Follow the prompts to enter inputs and perform calculations.
 9. Check the stored output in the generated file.
