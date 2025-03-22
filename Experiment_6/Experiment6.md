@@ -1,4 +1,4 @@
-# Lab 11 & 12
+# Experiment 6
 
 ---
 
@@ -23,7 +23,7 @@ The `useradd` command is used to create new user accounts.
    ```
 
 #### Screenshot:
-![Creating operator1 user](screenshots/useradd_operator1.png)
+![Creating operator1 user](./useradd.png)
 
 ---
 
@@ -37,7 +37,7 @@ The `passwd` command is used to assign or update passwords for user accounts.
    ```
 
 #### Screenshot:
-![Setting password for operator1](screenshots/passwd_operator1.png)
+![Setting password for operator1](./passwd.png)
 
 ---
 
@@ -55,7 +55,7 @@ The `usermod` command is used to update user account settings.
    ```
 
 #### Screenshot:
-![Updating comments for operator1](screenshots/usermod_operator1.png)
+![Updating comments for operator1](./usermod.png)
 
 ---
 
@@ -73,7 +73,7 @@ The `userdel` command is used to delete user accounts.
    ```
 
 #### Screenshot:
-![Removing operator3 user](screenshots/userdel_operator3.png)
+![Removing operator3 user](./userdel.png)
 
 ---
 
