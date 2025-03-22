@@ -1,4 +1,4 @@
-# Lab 9 & 10
+# Experiment 5
 
 ---
 
@@ -29,9 +29,9 @@ The `ps` command displays details about active processes.
    ```
 
 #### Screenshots:
-- ![Display processes for the current user](screenshots/ps_command.png)
-- ![Display all processes](screenshots/ps_e.png)
-- ![Display processes in full format](screenshots/ps_ef.png)
+- ![Display processes for the current user](./pscommand.png)
+- ![Display all processes](./pse.png)
+- ![Display processes in full format](./psef.png)
 
 ---
 
@@ -44,7 +44,7 @@ top
 ```
 
 #### Screenshot:
-![Running top command](screenshots/top_command.png)
+![Running top command](./top.png)
 
 ---
 
@@ -62,8 +62,8 @@ The `kill` command is used to terminate processes by their PID.
    ```
 
 #### Screenshots:
-- ![Terminating a process by PID](screenshots/kill_pid.png)
-- ![Forcefully terminating a process](screenshots/kill_9.png)
+- ![Terminating a process by PID](./killpid.png)
+- ![Forcefully terminating a process](./kill9.png)
 
 ---
 
@@ -78,7 +78,7 @@ sudo apt-get install htop
 ```
 
 #### Screenshot:
-![Installing htop](screenshots/apt_get_install.png)
+![Installing htop](./aptgetinstall.png)
 
 ---
 
@@ -96,8 +96,8 @@ To refresh the package list and upgrade installed packages:
    ```
 
 #### Screenshots:
-- ![Updating package list](screenshots/apt_get_update.png)
-- ![Upgrading packages](screenshots/apt_get_upgrade.png)
+- ![Updating package list](./aptgetupdate.png)
+- ![Upgrading packages](./aptgetupgrade.png)
 
 ---
 
@@ -115,8 +115,8 @@ The `apt-get remove` command is used to uninstall software, and `apt-get purge` 
    ```
 
 #### Screenshots:
-- ![Removing htop](screenshots/apt_get_remove.png)
-- ![Purging htop](screenshots/apt_get_purge.png)
+- ![Removing htop](./aptgetremove.png)
+- ![Purging htop](./aptgetpurge.png)
 
 ---
 
@@ -129,7 +129,7 @@ dpkg -l | grep htop
 ```
 
 #### Screenshot:
-![Verifying htop installation](screenshots/dpkg_grep_htop.png)
+![Verifying htop installation](./dpkggrephtop.png)
 
 ---
 
