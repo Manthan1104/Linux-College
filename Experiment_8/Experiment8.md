@@ -20,7 +20,7 @@ This lab focuses on creating and executing shell scripts in Linux to gather syst
    nano Experiment8.sh
    ```
 4. Write the script inside the file.
-5. Save and exit the editor (`CTRL + X`, then `Y`, and `Enter`).
+5. Save and exit the editor (`CTRL + S`, then `CTRL + X`).
 6. Give execution permissions to the script:
    ```bash
    chmod +x Experiment8.sh
