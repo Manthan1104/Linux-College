@@ -95,8 +95,8 @@ echo "Enter a Linux command to execute:"
 read user_command  # Read user input
 
 # Execute the command and store the output in a file
-$user_command > command_output.txt
-echo "Command output saved to command_output.txt"
+$user_command > output.txt
+echo "Command output saved to output.txt"
 
 ```
 
