@@ -10,7 +10,7 @@ This lab focuses on using Linux manual (`man`) pages, searching for commands rel
 ## Approach
 
 ### 1. Viewing the Manual Page for `gedit`
-The `man` command is used to access the manual page for a specific command.
+The man command is used to access the manual page for a specific command.
 
 #### Syntax:
 ```bash
