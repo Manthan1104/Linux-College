@@ -1,5 +1,5 @@
 # Linux-College
-A collection of Linux experiments covering commands, shell - scripting, and system operations.
+A collection of Linux experiments covering commands, shell - scripting and system operations.
 ---
 ![image](./1.png)
 ---
