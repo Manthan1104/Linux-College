@@ -3,7 +3,7 @@
 ---
 
 ## Experiment Description
-This lab focuses on creating files and directories in Linux using commands like `touch` d `mkdir`.
+This lab focuses on creating files and directories in Linux using commands like `touch` and `mkdir`.
 
 ---
 
